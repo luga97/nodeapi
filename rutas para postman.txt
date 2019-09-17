@@ -1,0 +1,36 @@
+get 
+http://localhost:3001/api/product
+con acceso 
+eso es en headers
+authorization Bearer y copias el token que te da como resultado
+
+para qeu tengas acceso
+
+post http://localhost:3001/api/product
+cuando vayas a incluir un articulo
+
+{
+	
+	"_id": "fbuyh852556662",
+	
+	"__v":8,
+	
+	"price":1256
+
+}
+
+get http://localhost:3001/api/private
+
+para copnsultar la autorizacion
+
+post http://localhost:3001/api/signup
+
+para registrar un usuario el cual tiene acceso a las demas tablas
+
+campos: 
+
+esta en el body
+
+email
+displayName
+password
